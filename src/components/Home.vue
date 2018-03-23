@@ -5,13 +5,11 @@
         <h1>{{ msg }}</h1>
       </template>
       <template slot="lead">
-        This is a simple hero unit, a simple jumbotron-style component for
-        calling extra attention to featured content or information.
+        This is a simple site, but simple is good.
       </template>
       <hr class="my-4">
       <p>
-        It uses utility classes for typography and spacing to space content
-        out within the larger container.
+        I can do a variety of things. Here are some of them.
       </p>
 
       <b-card-group deck>

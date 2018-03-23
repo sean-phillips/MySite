@@ -3,6 +3,8 @@
 
   <b-container fluid>
 
+
+
     <b-row>
       <b-col cols="8">
 
@@ -11,7 +13,8 @@
 
       </b-col>
       <b-col cols="4">
-        <div id="progress-bars" v-for="bar in bars" class="mb-1">
+
+        <div id="progress-bars" v-for="bar in bars" class="mb-1 ">
           <div class="">{{ bar.variant }}</div>
           <div class=" pt-1">
             <b-progress :value="bar.value"
@@ -20,6 +23,7 @@
             ></b-progress>
           </div>
         </div>
+
       </b-col>
     </b-row>
 
